@@ -63,23 +63,22 @@
 			</div>
 </div>
 <div class="col-md-8">
-	<div class="col-md-1">
-	
-
-
-		
-
-
-
-
-
-
-
-
-
-
+	<div class="panel panel-info">
+		<div class="panel-heading">Products</div>
+		 <div class="panel-body">
+			<div class="col-md-4">
+				<div class="panel panel-info">
+					
+				</div>
+			</div>
+		</div>
+		<div class="panel-footer">@copy; 2018</div>
 	</div>
-</div>
+	</div>
+
+	<div class="col-md-1"></div>
+
+
 
 </body>
 </html>
