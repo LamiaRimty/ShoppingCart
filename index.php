@@ -32,7 +32,11 @@
 		<ul class="nav navbar-nav navbar-right">
 			<li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span>Cart</a></li>
 
-			<li><a href="#"><span class="glyphicon glyphicon-user"></span>SignIn</a></li>
+			<li><a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span>SignIn</a>
+				<ul class="dropdown-menu">
+					<li>eweded</li>
+				</ul>
+			</li>
 
 			<li><a href="#"><span class="glyphicon glyphicon-user"></span>SignUp</a></li>
 		</ul>
@@ -46,39 +50,44 @@
 	<div class="row">
 		<div class="col-md-1"></div>
 		<div class="col-md-2">
-			<div class="nav nav-pills nav-stackeed">
-				<li class="active"><a href="#"><h4>Catagories</h4></a></li>
-				<li><a href="#">Catagories</a></li>
-				<li><a href="#">Catagories</a></li>
-				<li><a href="#">Catagories</a></li>
-				<li><a href="#">Catagories</a></li>
+			<div class="nav nav-pills nav-stacked">
+				<li class="active"><a href="#"><h4>Categories</h4></a></li>
+				<li><a href="#">Categories</a></li>
+				<li><a href="#">Categories</a></li>
+				<li><a href="#">Categories</a></li>
+				<li><a href="#">Categories</a></li>
 			</div>
 
-			<div class="nav nav-pills nav-stackeed">
+			<div class="nav nav-pills nav-stacked">
 				<li class="active"><a href="#"><h4>Brand</h4></a></li>
-				<li><a href="#">Catagories</a></li>
-				<li><a href="#">Catagories</a></li>
-				<li><a href="#">Catagories</a></li>
-				<li><a href="#">Catagories</a></li>
-			</div>
-</div>
-<div class="col-md-8">
-	<div class="panel panel-info">
-		<div class="panel-heading">Products</div>
-		 <div class="panel-body">
-			<div class="col-md-4">
-				<div class="panel panel-info">
-					
-				</div>
+				<li><a href="#">Categories</a></li>
+				<li><a href="#">Categories</a></li>
+				<li><a href="#">Categories</a></li>
+				<li><a href="#">Categories</a></li>
 			</div>
 		</div>
-		<div class="panel-footer">@copy; 2018</div>
-	</div>
-	</div>
+		<div class="col-md-8">
+			<div class="panel panel-info">
+			<div class="panel-heading">Products</div>
+			<div class="panel-body">
+				<div class="col-md-4">
+					<div class="panel panel-info">
+						<div class="panel-heading">Samsung Galaxy</div>
+						<div class="panel-body">
+							<img src="Product_images/kurti.jpg">
+						</div>
+						<div class="panel-heading">$.500.00
 
-	<div class="col-md-1"></div>
-
-
-
+							<button style="float:right;" class="btn btn-danger">AddToCart</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="panel-footer">&copy; 2018</div>	
+			</div>
+		</div>
+		<div class="col-md-1"></div>
+</div>
+</div>
 </body>
 </html>
