@@ -34,7 +34,22 @@
 
 			<li><a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span>SignIn</a>
 				<ul class="dropdown-menu">
-					<li>eweded</li>
+					<div style="width:300px;">
+						<div class="panel panel-primary">
+							<div class="panel-heading">Login</div>
+							<div class="panel-heading">
+								<label for="email">Email</label>
+
+								<input type="email" class="" ="form-control"  id="email" required >
+
+								<label for="email">Password</label>
+								<input type="password" class="form-control" id="password" required  >
+								<p><br></p>
+								<a href="#" style="color: white; list-style: none;">Forgotten Password</a>
+							</div>
+							<div class="panel-footer" id="e_msg"></div>
+						</div>
+					</div>
 				</ul>
 			</li>
 
