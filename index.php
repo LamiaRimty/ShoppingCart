@@ -30,7 +30,24 @@
 		</ul>  
 
 		<ul class="nav navbar-nav navbar-right">
-			<li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span>Cart</a></li>
+			<li><a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-shopping-cart"></span>Cart<span class="badge"></span></a>
+
+			<div class="dropdown-menu" style="width: 400px;">
+				<div class="panel panel-success">
+					<div class="panel-heading">
+						<div class="row">
+							<div class="col-md-3">Sl.No</div>
+							<div class="col-md-3">Product Image</div>
+							<div class="col-md-3">Product Name</div>
+							<div class="col-md-3">Price in Tk.</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			</li>
 
 			<li><a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span>SignIn</a>
 				<ul class="dropdown-menu">
@@ -45,7 +62,7 @@
 								<label for="email">Password</label>
 								<input type="password" class="form-control" id="password" required  >
 								<p><br></p>
-								<a href="#" style="color: white; list-style: none;">Forgotten Password</a>
+								<a href="#" style="color: white; list-style: none;">Forgotten Password</a><input type="submit" class="tn btn-success" style="float: right; id="login" value="Login">
 							</div>
 							<div class="panel-footer" id="e_msg"></div>
 						</div>
