@@ -1,5 +1,32 @@
-$(document).ready(function()
+$(document).ready(function(){
+ 	cat();
+ 	brand();
+ 	product();
 
-{
-	alert("hello");
+ 	function cat(){
+ 		$.ajax({
+ 			url : "action.php" ,
+ 			method: "POST",
+ 			data : {category :1},
+ 			success :function(data){
+ 				$("$get_category") .html(data);
+ 			}
+ 		})
+ 	}
+
+
+
+ 	function brand(){
+ 		$.ajax({
+ 			url : "action.php" ,
+ 			method: "POST",
+ 			data : {brand:1},
+ 			success :function(data){
+ 				$("$get_brand") .html(data);
+ 			}
+ 		})
+ 	}
+
+
+ 	
 })
