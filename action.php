@@ -65,8 +65,40 @@ echo "
 
 }
 
+if (isset($_POST["getProduct"])) {
+	# code...
+
+	$Product_query = " SELECT * FROM products ORDER BY rand() LIMIT 0,9" ;
+	$run_query = mysqli_query($con, $product_query)
+	if (mysqli_num_rows($run_query)>0) {
+		# code...
+		while ($row = mysqli_fetch_array($run_query)) {
+			# code...
+
+			$pro_id =$row['product_id'];
+			$pro_cat =$row['product_cat'];
+            $pro_title =$row['product_title'];
+            $pro_price =$row['product_price'];
+            $pro_image=$row['product_image'];
+
+            echo "<div class='col-md-4'>
+					<div class='panel panel-info'>
+						<div class='panel-heading'>$pro_title</div>
+						<div class='panel-body'>
+							<img src='Product_images/$pro_image'>
+						</div>
+						<div class='panel-heading'>$.$pro_price.00
+
+							<button class='$pro_id' style='float:right;' class='btn btn-danger'>AddToCart</button>
+						</div>
+					</div>";
+
+		}
 
 
+	}
+
+}
 
 
 
