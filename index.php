@@ -30,7 +30,7 @@
 		</ul>  
 
 		<ul class="nav navbar-nav navbar-right">
-			<li><a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-shopping-cart"></span>Cart<span class="badge"></span></a>
+			<li><a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-shopping-cart"></span>Cart<span class="badge">O</span></a>
 
 			<div class="dropdown-menu" style="width: 400px;">
 				<div class="panel panel-success">
@@ -49,6 +49,14 @@
 
 			</li>
 
+
+
+
+
+
+
+
+
 			<li><a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span>SignIn</a>
 				<ul class="dropdown-menu">
 					<div style="width:300px;">
@@ -62,7 +70,7 @@
 								<label for="email">Password</label>
 								<input type="password" class="form-control" id="password" required  >
 								<p><br></p>
-								<a href="#" style="color: white; list-style: none;">Forgotten Password</a><input type="submit" class="tn btn-success" style="float: right; id="login" value="Login">
+								<a href="#" style="color: white; list-style: none;">Forgotten Password</a>
 							</div>
 							<div class="panel-footer" id="e_msg"></div>
 						</div>
@@ -106,7 +114,7 @@
 					<div class="panel panel-info">
 						<div class="panel-heading">Samsung Galaxy</div>
 						<div class="panel-body">
-							<img src="Product_images/kurti.jpg">
+							<img src="Product_images/samsung galaxy S8.jpg">
 						</div>
 						<div class="panel-heading">$.500.00
 
