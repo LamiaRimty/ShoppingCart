@@ -1,16 +1,16 @@
 <?php
-include "db.php";
+include "dbconnect.php";
 if (isset($_POST["category"])) {
 	# code...
 
 $category_query ="SELECT * FROM categories";
-$run_query = mysqli_query($con ,$category_query);
-echo "
+$run_query = mysqli_query($conn ,$category_query);
+	echo "
 
 			<div class='nav nav-pills nav-stacked'>
 				<li class='active'><a href='#'><h4>Categories</h4></a></li>
 
-"; 
+	"; 
 
 
  if (mysqli_num_rows($run_query)>0) {

@@ -7,7 +7,7 @@
 	 	<script src="js/jquery.js"></script>
 	 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
-		<script src="main.js"></script>
+		
 	</head>
 <body>
 	<div class="navbar navbar-inverse navbar-fixed-top">
@@ -45,26 +45,13 @@
 				<li>
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span>SignIn</a>
 					<ul class="dropdown-menu">
-						<div style="width:300px;">
-							<div class="panel panel-primary">
-								<div class="panel-heading">Login</div>
-								<div class="panel-heading">
-									<label for="email">Email</label>
-
-									<input type="email" class ="form-control"  id="email" required >
-
-									<label for="email">Password</label>
-									<input type="password" class="form-control" id="password" required  >
-									<p><br></p>
-									<a href="#" style="color: white; list-style: none;">Forgotten Password</a>
-								</div>
-								<div class="panel-footer" id="e_msg"></div>
-							</div>
-						</div>
+						<li><a href="">User Name</a></li>
+						<li><a href="">change password</a></li>
+						<li><a href="">logout</a></li>
 					</ul>
 				</li>
 				<li>
-					<a href="signup.php"><span class="glyphicon glyphicon-user"></span>SignUp</a>
+					
 				</li>
 			</ul>
 		</div>
